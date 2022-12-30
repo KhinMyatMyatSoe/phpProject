@@ -1,0 +1,21 @@
+{
+    "name": "soesandar/project1",
+    "authors": [
+        {
+            "name": "soesandar"
+        }
+    ],
+    "require": {
+        "fakerphp/faker": "^1.20"
+    },
+
+
+
+    "autoload": {
+        "psr-4":{
+            "Helpers\\": "_classes/Helpers/",
+            "Libs\\": "_classes/Libs/"
+
+        }
+    }
+}
